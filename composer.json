@@ -1,0 +1,20 @@
+{
+    "name": "ghusr/inspire2",
+    "description": "Un segundo paquete de prueba",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ghusr\\Inspire2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DGBSDI",
+            "email": "dsalasa@dgb.unam.mx"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
